@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Moda</title>
+    
+    <!-- Enlaces de Google Fonts para DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <!-- Tu archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+      <a href="#" class="logo">
+    <img src="./imagenes/Maia_Logo Horizontal.png" alt="Logo de la marca" style="height: 20px; width: auto;">
+</a>
+        <div class="dropdown">
+            <button class="dropbtn"> ▼</button>
+            <div class="dropdown-content">
+                <a href="#about">About</a>
+                <a href="#collections">Collections</a>
+               <!-- <a href="#process">Process</a>-->
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+<!-- INICIO: IMAGEN/VIDEO BOTÓN -->
+    <section class="hero">
+        <a href="#collections" class="hero-button" title="Ver colecciones"></a>
+        
+        <!-- IMAGEN TEMPORAL: Cambia el 'src' por la foto que quieras usar -->
+        <img src="./imagenes/REMIGRANTwallpaper.jpg" alt="Portada de Inicio">
+        <!-- 
+        <video autoplay muted loop playsinline>
+            <source src="Videos\tu-video-final.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+        -->
+    </section>
+    <!-- BIOGRAFÍA -->
+    <section id="about">
+        <h2>About</h2>
+        <div class="text-content">
+            <!-- texto de biografia-->
+            <p>Maia Harima is an Argentine-Japanese fashion designer and textile researcher based in Japan.
+Her practice focuses on material research, textile techniques, and transformation systems that extend the life of existing resources. Influenced by her Nikkei heritage, she approaches design as a way to reinterpret textile heritage, preserve traditional craftsmanship, and build new narratives where tradition, innovation, and sustainability naturally converge.
+<br/>
+            </p>
+        </div>
+    </section>
+
+  <!-- SECCIÓN COLLECTIONS -->
+    <section id="collections">
+        <h2>Collections</h2>
+        <div class="grid">
+
+            <!-- COLECCIÓN 1 -->
+            <div class="item">
+                <div class="imagen-interactiva">
+                    <!-- CAMBIO: Ahora usan 'foto-slide'. La primera lleva 'activa' -->
+                    <img src="./imagenes/N I K K E I - 1.jpeg" alt="Look Frente" class="foto-slide activa">
+                    <img src="./imagenes/N I K K E I - 2.jpeg" alt="Look Detalle" class="foto-slide">
+                       <img src="./imagenes/N I K K E I - 3.jpeg"  class="foto-slide">
+                          <img src="./imagenes/N I K K E I - 4.jpeg" class="foto-slide">
+                             <img src="./imagenes/N I K K E I - 5.jpeg" class="foto-slide">
+                                <img src="./imagenes/N I K K E I - 6.jpeg" class="foto-slide">
+                                      <img src="./imagenes/N I K K E I - 8.jpeg" class="foto-slide">
+                                         <img src="./imagenes/N I K K E I - 9.jpeg" class="foto-slide">
+                                            <img src="./imagenes/N I K K E I - 10.jpeg" class="foto-slide">
+                </div>
+                <p><h2>0 — NIKKEI</h2>
+
+                </p>
+            </div> 
+
+            <!-- COLECCIÓN 2 -->
+            <div class="item">
+                <div class="imagen-interactiva">
+                    <img src="./imagenes/REMIGRANT 1.jpg" alt="Look Frente" class="foto-slide activa">
+                    <img src="./imagenes/REMIGRANT 2.jpg" alt="Look Detalle" class="foto-slide">
+                       <img src="./imagenes/REMIGRANT 3.jpg" class="foto-slide">
+                       <img src="./imagenes/REMIGRANT 4.jpg" class="foto-slide">
+                       <img src="./imagenes/REMIGRANT 6.jpg" class="foto-slide">
+                       <img src="./imagenes/REMIGRANT 7.jpg" class="foto-slide">
+                       <img src="./imagenes/REMIGRANT 8.jpg" class="foto-slide">
+                </div>
+                <p><h2>1 — Remigrant</h2>
+                </p>
+            </div> 
+            
+            <!-- COLECCIÓN 3 -->
+            <div class="item">
+                <div class="imagen-interactiva">
+                    <img src="./imagenes/Secondskin_1.jpg" alt="Look Frente" class="foto-slide activa">
+                    <img src="./imagenes/Secondskin_2.jpg" alt="Look Detalle" class="foto-slide">
+                      <img src="./imagenes/Secondskin_3.jpg" alt="Look Detalle" class="foto-slide">
+                        <img src="./imagenes/Secondskin_4.jpg" alt="Look Detalle" class="foto-slide">
+                </div>
+                <p><h2>2 — Second Skin</h2>
+                </p>
+            </div> 
+        </div>
+    </section>
+
+   <!-- SECCIÓN PROCESS 
+    <section id="process">
+        <h2>Process</h2>
+        <div class="text-content">
+            <video controls width="100%">
+                <source src="Videos\1006-142621176.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            <p style="margin-top: 20px;"></p>
+        </div>
+    </section>-->
+
+    <!-- SECCIÓN CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+    <div class="text-links">
+            
+            <!-- Email -->
+            <div class="text-linksitem">
+                <p><strong>General inquiries</strong><br>
+                   hola@tumarca.com</p>
+            </div>
+            
+            <!-- Redes Sociales -->
+            <div class="text-linksitem">
+                <p><strong>Socials</strong><br>
+                   <a href="https://www.instagram.com/maiaharima/" target="_blank">Instagram</a> | 
+                   <a href="https://tiktok.com" target="_blank">TikTok</a></p>
+            </div>
+            
+            <!--  Teléfono -->
+            <div class="text-linksitem">
+                <p><strong>Contact number</strong><br>
+                   122222222222222</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 
+         carrusel de fotos con efecto xd
+   -->
+  <script>
+        const colecciones = document.querySelectorAll('.imagen-interactiva');
+
+        colecciones.forEach(caja => {
+            let intervalo = null;
+            const fotos = caja.querySelectorAll('.foto-slide');
+            let index = 0;
+
+            const iniciarAnimacion = (e) => {
+                if (fotos.length <= 1 || intervalo !== null) return; 
+                
+                intervalo = setInterval(() => {
+                    fotos[index].classList.remove('activa'); 
+                    index = (index + 1) % fotos.length; 
+                    fotos[index].classList.add('activa'); 
+                }, 800); 
+            };
+
+            const detenerAnimacion = () => {
+                if (intervalo !== null) {
+                    clearInterval(intervalo);
+                    intervalo = null;
+                }
+                
+                fotos[index].classList.remove('activa');
+                index = 0; 
+                fotos[index].classList.add('activa');
+            };
+
+           
+            caja.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+            });
+
+         
+            caja.addEventListener('pointerdown', iniciarAnimacion); 
+            caja.addEventListener('pointerup', detenerAnimacion);  
+            caja.addEventListener('pointerleave', detenerAnimacion);
+            caja.addEventListener('pointercancel', detenerAnimacion);
+        });
+    </script>
+</body>
+</html>
